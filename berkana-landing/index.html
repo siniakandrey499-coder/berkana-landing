@@ -1,0 +1,230 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Berkana — Аренда специальной техники</title>
+
+  <!-- Bootstrap 5 (локально) -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Bootstrap Icons (локально) -->
+  <link rel="stylesheet" href="assets/vendor/bootstrap-icons/font/bootstrap-icons.min.css">
+
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<!-- ===================== HEADER ===================== -->
+<header class="site-header">
+  <div class="topbar">
+    <div class="container">
+      <div class="d-flex align-items-center justify-content-between flex-wrap gy-2 py-2">
+        <a href="#" class="logo d-flex align-items-center">
+          <img src="assets/img/logo.png" alt="Berkana" height="34">
+        </a>
+
+        <div class="d-none d-lg-flex align-items-center topbar-info">
+          <div class="info-item">
+            <i class="bi bi-geo-alt"></i>
+            <span>Санкт-Петербург<br><small>пр-кт Индустриальный, 44/2 лит а, оф. 527</small></span>
+          </div>
+          <div class="info-item">
+            <i class="bi bi-clock"></i>
+            <span>время работы<br><small>пн-вс: с 8:00 до 22:00</small></span>
+          </div>
+          <div class="info-item">
+            <i class="bi bi-telephone"></i>
+            <span>контакты<br><small>+7 812 561-62-17</small></span>
+          </div>
+          <div class="info-item">
+            <i class="bi bi-envelope"></i>
+            <span>электронная почта<br><small>ai@berkana.spb.ru</small></span>
+          </div>
+        </div>
+
+        <a href="tel:+78125616217" class="topbar-mobile-phone d-none align-items-center gap-2 text-decoration-none">
+          <i class="bi bi-telephone-fill"></i> <span>+7 812 561-62-17</span>
+        </a>
+
+        <div class="d-flex align-items-center gap-2 social-icons">
+          <a href="#" class="social-btn"><i class="bi bi-telegram"></i></a>
+          <a href="#" class="social-btn"><i class="bi bi-whatsapp"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <nav class="navbar navbar-expand-lg navbar-dark main-nav">
+    <div class="container">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainMenu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="mainMenu">
+        <ul class="navbar-nav align-items-lg-center gap-lg-2">
+          <li class="nav-item">
+            <a class="nav-link catalog-link" href="#catalog"><i class="bi bi-list"></i> каталог техники</a>
+          </li>
+          <li class="nav-item"><a class="nav-link" href="#prices">цены</a></li>
+          <li class="nav-item"><a class="nav-link" href="#clients">клиентам</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">о нас</a></li>
+          <li class="nav-item"><a class="nav-link" href="#articles">статьи</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contacts">контакты</a></li>
+        </ul>
+        <a href="#order" class="btn btn-accent ms-lg-auto order-btn">заказать звонок</a>
+      </div>
+    </div>
+  </nav>
+</header>
+
+<!-- ===================== HERO SLIDER ===================== -->
+<section class="hero" id="hero">
+  <div id="heroSlider" class="carousel slide h-100" data-bs-ride="carousel">
+    <div class="carousel-inner h-100">
+      <div class="carousel-item active h-100">
+        <div class="hero-slide">
+          <img src="assets/img/hero-photo-full.jpg" class="hero-bg-img" alt="">
+          <div class="hero-overlay"></div>
+          <div class="container h-100 position-relative">
+            <div class="row h-100 align-items-center">
+              <div class="col-lg-7">
+                <p class="eyebrow">СОВРЕМЕННАЯ СПЕЦТЕХНИКА</p>
+                <h1 class="hero-title">Аренда специальной техники для эффективных решений вашего бизнеса</h1>
+                <p class="hero-text">Мы предлагаем широкий ассортимент спецтехники в аренду, чтобы помочь вам успешно решать задачии в строительстве, ремонте, земельных работах и других сферах.</p>
+                <div class="d-flex align-items-center gap-4 flex-wrap hero-cta">
+                  <a href="#order" class="btn btn-accent btn-lg">заказать звонок</a>
+                  <a href="#price" class="link-arrow">узнать стоимость <span class="arrow-circle"><i class="bi bi-arrow-right"></i></span></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="hero-cards">
+              <div class="hero-card">
+                <div class="hero-card-icon"><i class="bi bi-sliders2"></i></div>
+                <h5>Гибкие условия аренды</h5>
+                <p>Краткосрочная и долгосрочная аренда, мы подстраиваемся под ваши требования.</p>
+              </div>
+              <div class="hero-card">
+                <div class="hero-card-icon"><i class="bi bi-person-workspace"></i></div>
+                <h5>Профессиональное обслуживание</h5>
+                <p>Наша команда экспертов всегда готова помочь вам выбрать подходящую технику и ответить на все вопросы.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="carousel-item h-100">
+        <div class="hero-slide">
+          <img src="assets/img/hero-photo-full.jpg" class="hero-bg-img" alt="">
+          <div class="hero-overlay"></div>
+          <div class="container h-100 position-relative">
+            <div class="row h-100 align-items-center">
+              <div class="col-lg-7">
+                <p class="eyebrow">НАДЁЖНЫЙ ПАРТНЁР</p>
+                <h1 class="hero-title">Более 20 единиц спецтехники в наличии уже сегодня</h1>
+                <p class="hero-text">Работаем с малым и крупным бизнесом: от разовой аренды экскаватора до долгосрочных контрактов на строительных объектах.</p>
+                <div class="d-flex align-items-center gap-4 flex-wrap hero-cta">
+                  <a href="#order" class="btn btn-accent btn-lg">заказать звонок</a>
+                  <a href="#price" class="link-arrow">узнать стоимость <span class="arrow-circle"><i class="bi bi-arrow-right"></i></span></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero-dots">
+      <button type="button" data-bs-target="#heroSlider" data-bs-slide-to="0" class="active"></button>
+      <button type="button" data-bs-target="#heroSlider" data-bs-slide-to="1"></button>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== POPULAR EQUIPMENT ===================== -->
+<section class="popular-equipment" id="popular">
+  <div class="container">
+    <h2 class="section-title text-center">Популярная спецтехника</h2>
+
+    <div id="popularSlider" class="carousel slide" data-bs-ride="false">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="row g-4">
+
+            <div class="col-md-4">
+              <div class="product-card">
+                <div class="product-img">
+                  <img src="assets/img/p1.jpg" alt="Экскаватор — погрузчик JCB 4CX">
+                </div>
+                <div class="product-body">
+                  <h5>Экскаватор — погрузчик JCB 4CX</h5>
+                  <p class="dims">Габариты: <span>5,91 м</span> x <span>2,36 м</span> x <span>2,88 м</span></p>
+                  <hr>
+                  <div class="d-flex align-items-center justify-content-between">
+                    <div class="price"><span class="from">от</span> 25 000 руб/смена</div>
+                    <a href="#order" class="btn btn-accent btn-sm">заказать</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="product-card">
+                <div class="product-img">
+                  <img src="assets/img/p2.jpg" alt="Экскаватор — погрузчик JCB 3CX">
+                </div>
+                <div class="product-body">
+                  <h5>Экскаватор — погрузчик JCB 3CX</h5>
+                  <p class="dims">Габариты: <span>5,62 м</span> x <span>2,35 м</span> x <span>2,89 м</span></p>
+                  <hr>
+                  <div class="d-flex align-items-center justify-content-between">
+                    <div class="price"><span class="from">от</span> 25 000 руб/смена</div>
+                    <a href="#order" class="btn btn-accent btn-sm">заказать</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="product-card">
+                <div class="product-img">
+                  <img src="assets/img/p3.jpg" alt="Самосвал">
+                </div>
+                <div class="product-body">
+                  <h5>Самосвал</h5>
+                  <p class="dims">Габариты: <span>8,85 м</span> x <span>2,49 м</span> x <span>3,49 м</span></p>
+                  <hr>
+                  <div class="d-flex align-items-center justify-content-between">
+                    <div class="price"><span class="from">от</span> 26 000 руб/смена</div>
+                    <a href="#order" class="btn btn-accent btn-sm">заказать</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+      <div class="d-flex align-items-center justify-content-between mt-4">
+        <div class="popular-dots">
+          <span class="dot"></span><span class="dot"></span><span class="dot active"></span>
+        </div>
+        <div class="d-flex gap-2">
+          <button class="slider-nav-btn" data-bs-target="#popularSlider" data-bs-slide="prev"><i class="bi bi-arrow-left"></i></button>
+          <button class="slider-nav-btn" data-bs-target="#popularSlider" data-bs-slide="next"><i class="bi bi-arrow-right"></i></button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="container text-center">
+    <p class="mb-0">© 2026 ООО «Беркана». Тестовое задание — вёрстка макета.</p>
+  </div>
+</footer>
+
+<script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
